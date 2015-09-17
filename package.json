@@ -1,0 +1,28 @@
+{
+  "name": "simple-rate-limit",
+  "version": "1.0.0",
+  "description": "Simple rate-limiting middleware for Express. Use to limit the number of simultaneous open requests.",
+  "homepage": "https://github.com/itamarwe/simple-rate-limit",
+  "author": {
+    "name": "Itamar Weiss",
+    "url": "http://itamarweiss.com"
+  },
+  "repository": "itamarwe/simple-rate-limit",
+  "license": "MIT",
+  "main": "lib/simple-rate-limit.js",
+  "files": [
+    "lib/"
+  ],
+  "keywords": [
+    "express-rate-limit",
+    "express",
+    "rate",
+    "limit",
+    "middleware"
+  ],
+  "dependencies": {
+    "klass": "^1.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {}
+}
