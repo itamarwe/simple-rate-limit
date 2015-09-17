@@ -5,7 +5,7 @@ Limit the number of open requests of your application to limit resource utilizat
 Return 429 (Too many requests) errors once there are too many open requests.
 
 ## Install
-npm install --save simple-rate-limit
+`npm install --save simple-rate-limit`
 
 ## Configuration
 - **limit** - The maximum number of simultaneous open requests. Requests sent once the limits is reached will receive a 429 error code.
