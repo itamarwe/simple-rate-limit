@@ -14,7 +14,7 @@ npm install --save simple-rate-limit
 ````
 var SimpleRateLimiter = require('simple-rate-limit');
 
-var limiter = SimpleRateLimiter({
+var limiter = new SimpleRateLimiter({
   limit:20 //defaults to 5
 });
 
