@@ -1,5 +1,5 @@
 #  Simple Rate Limit
-Simple rate limiting middleware for Express applications.
+Simple rate limiting middleware for node.js Express applications.
 Limit the number of open requests of your application to limit resource utilization such as socket connection and memory.
 
 Return 429 (Too many requests) errors once there are too many open requests.
@@ -8,7 +8,7 @@ Return 429 (Too many requests) errors once there are too many open requests.
 npm install --save simple-rate-limit
 
 ## Configuration
-- *limit* - The maximum number of simultaneous open requests. Requests sent once the limits is reached will receive a 429 error code.
+- **limit** - The maximum number of simultaneous open requests. Requests sent once the limits is reached will receive a 429 error code.
 
 ## Usage
 ````
